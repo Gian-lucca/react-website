@@ -9,6 +9,7 @@ import boy from '../../img/boy.png'
 import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
+import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
 
 const Intro = () => {
@@ -35,7 +36,7 @@ const Intro = () => {
            <img src={Vector2} alt="" />
            <img src={boy} alt="" />
            <div>
-            <FloatingDiv/>
+            <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
            </div>
         </div>
 
