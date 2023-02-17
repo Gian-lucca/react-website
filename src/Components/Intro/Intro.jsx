@@ -35,9 +35,15 @@ const Intro = () => {
            <img src={Vector1} alt="" />
            <img src={Vector2} alt="" />
            <img src={boy} alt="" />
-           <div>
+           <img src={glassesimoji} alt="" />
+           <div style={{top: '-4%', left: '60%'}}>
             <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
            </div>
+           <div style={{top:'18rem', left: '0rem'}}>
+            <FloatingDiv image={thumbup} txt1='Soluções confiáveis' txt2={'e seguras'}/>
+           </div>
+           <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
+           <div className="blur" style={{background: '#C1F5FF', top: '17rem', width:'21rem', height:'11rem', left:'-9rem'}}></div>
         </div>
 
     </div>

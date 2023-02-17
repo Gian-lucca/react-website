@@ -12,3 +12,10 @@
 .FloatingDiv>img {
     transform: scale(0.4);
 }
+
+.FloatingDiv>span {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--black);
+    font-weight: bold;
+}

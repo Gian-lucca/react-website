@@ -13,7 +13,7 @@
 
 :root{
     padding: 0.5rem 3.5rem;
-    overflow: hidden;
+    overflow: auto;
     color: var(--black);    
 }
 
