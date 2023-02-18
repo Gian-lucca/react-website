@@ -22,9 +22,9 @@ const Services = () => {
             <button className="button s-button">Download CV</button>
           </a>
           
-          
+          <div className="blur" style={{background: '#C1F5FF', top: '17rem', width:'21rem', height:'11rem', left:'-9rem'}}></div>
         </div>
-        <div className="blu s-blur1" style={{ background: "#ABF1FF94"}}></div>
+        
         <div className="cards">
 
           <div style={{left: '14rem'}}>
