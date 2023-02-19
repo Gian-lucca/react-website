@@ -3,7 +3,7 @@ import './experience.css'
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div id='experience'>
 
       <div className="anchievement">
         <div className="circle">+2</div>

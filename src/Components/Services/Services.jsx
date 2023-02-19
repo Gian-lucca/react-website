@@ -8,7 +8,7 @@ import Resume from '../Services/resume.pdf'
 
 const Services = () => {
   return (
-    <div className="services">
+    <div id='services'>
         <div className="awersome">
           <span>Meu incrível</span>
           <span>Serviço</span>
@@ -22,7 +22,7 @@ const Services = () => {
             <button className="button s-button">Download CV</button>
           </a>
           
-          <div className="blur" style={{background: '#C1F5FF', top: '17rem', width:'21rem', height:'11rem', left:'-9rem'}}></div>
+          <div className="blur" style={{background: '#C1F5FF', top: '26rem', width:'21rem', height:'11rem', left:'-9rem'}}></div>
         </div>
         
         <div className="cards">
