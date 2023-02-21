@@ -37,9 +37,9 @@ const Testimonials = () => {
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>Os clientes sempre recebem um </span>
+        <span>Trabalho Excepcional </span>
+        <span>de mim...</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
