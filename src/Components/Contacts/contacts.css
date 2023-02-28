@@ -115,6 +115,10 @@ textarea{
     .container.contact__container {
         width: var(--container-width-sm);
     }
+
+    .contact__options {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 480px) {

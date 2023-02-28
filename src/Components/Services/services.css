@@ -68,7 +68,13 @@
       flex-direction: column;
       gap: 17rem;
     }
+
     .cards > * {
       position: static;
+    }
+
+    .s-blur2 {
+        left: 7rem;
+        top: 43rem;
     }
 }

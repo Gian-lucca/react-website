@@ -9,13 +9,16 @@
     gap: 2rem;
     position: relative;
 }
+
 .t-heading{
     align-self: start;
 }
+
 .t-heading>*{
     font-size: 2rem;
     font-weight: bold;
 }
+
 .t-heading span:nth-of-type(2){
     color: var(--orange);
 }
@@ -72,8 +75,21 @@
     .t-wrapper{
         padding: 0;
     }
+
     .testimonial>img{
         width: 70px;
         height: 70px;
     }
+
+    .t-blur2 {
+        top: 16rem;
+        left: -13rem;
+    }
+
+    .t-blur1 {
+        left: 0rem;
+        top: 30rem;
+    }
+    
+    
 }
