@@ -28,7 +28,6 @@ const Works = () => {
                 cumque necessitatibus modi explicabo commodi eaque nobis quaerat!
             </span>
 
-            <button className="button s-button">Contrate-me</button>
             <div className="blur" style={{background: '#C1F5FF', top: '10rem', width:'21rem', height:'11rem', left:'-9rem'}}></div>
         </div>
 
