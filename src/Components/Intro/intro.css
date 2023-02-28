@@ -124,6 +124,10 @@
       left: -3rem;
     }
 
+    .i-left {
+        gap: 4rem;
+    }
+
     .i-right .blur {
       display: none;
     }
@@ -134,8 +138,8 @@
     }
 
     .FloatingDiv {
-        margin-left: 7rem;
-        width: 44%;
+        margin-left: 2rem;
+        width: 61%;
     }
 
     .i-right>:nth-child(1) {

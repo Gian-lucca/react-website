@@ -119,15 +119,20 @@ textarea{
     .contact__options {
         display: block;
     }
+
+    .contact__option {
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .contact-form{
-        padding: 0;
+    
+    .contact-form {
         flex-direction: column;
         gap: 5rem;
         height: 40rem;
     }
+
     .c-right .user{
         width: 16rem;
     }

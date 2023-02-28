@@ -67,6 +67,7 @@
       display: flex;
       flex-direction: column;
       gap: 17rem;
+      margin: 0 54px;
     }
 
     .cards > * {
@@ -74,7 +75,7 @@
     }
 
     .s-blur2 {
-        left: 7rem;
+        left: 0rem;
         top: 43rem;
     }
 }
