@@ -9,11 +9,17 @@ import Portfolio from './Components/Portfolio/Portfolio'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Contacts from './Components/Contacts/Contacts'
 import Footer from './Components/Footer/Footer'
-
+import { useContext } from "react";
+import { themeContext } from "./Context";
 
 const App = () => {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <>
+      <div className="App" style={{ background: darkMode ? "black" : "",color: darkMode ? "white" : "",}}>
         <Navbar/>
         <Intro/>
         <Services/>
@@ -23,6 +29,7 @@ const App = () => {
         <Testimonials/>
         <Contacts/>
         <Footer/>
+        </div>
     </>
   )
 }
