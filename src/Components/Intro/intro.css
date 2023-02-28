@@ -111,3 +111,45 @@
     left: 38%;
     filter: blur(72px);
 }
+
+@media screen and (max-width: 480px) {
+    .intro {
+      flex-direction: column;
+      gap: 7rem;
+      height: 64rem;
+    }
+  
+    .i-right {
+      transform: scale(0.8);
+      left: -3rem;
+    }
+
+    .i-right .blur {
+      display: none;
+    }
+
+    .floating-div:nth-of-type(1){
+      /* display: none; */
+      top: -7rem !important;;
+    }
+
+    .FloatingDiv {
+        margin-left: 7rem;
+        width: 44%;
+    }
+
+    .i-right>:nth-child(1) {
+        transform: scale(0.69);
+        left: -49%;
+        top: -4%;
+    }
+
+    .i-right>:nth-child(3) {
+        transform: scale(1.4);
+        left: 46%;
+    }
+
+    .curti {
+        margin-left: -7rem;
+    }
+}

@@ -21,9 +21,11 @@ const Intro = () => {
                 <span>Gianlucca Augusto</span>
                 <span>Desenvolvedor frontend com alto nível de experiência, produzindo um trabalho de qualidade</span>
             </div>
-
-            <button className="button i-button">Contate-me</button>
-
+            
+            <a href="#contatos">
+              <button className="button i-button">Contate-me</button>
+            </a>
+            
             <div className="i-icons">
               <a href="https://www.linkedin.com/in/gianlucca-augusto-745485237/" target="_blank"><BsLinkedin/></a>
               <a href="https://github.com/Gian-lucca" target="_blank"><FaGithub/></a>
@@ -39,7 +41,7 @@ const Intro = () => {
            <div style={{top: '-4%', left: '60%'}}>
             <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
            </div>
-           <div style={{top:'18rem', left: '0rem'}}>
+           <div className="curti" style={{top:'18rem', left: '0rem'}}>
             <FloatingDiv image={thumbup} txt1='Soluções confiáveis' txt2={'e seguras'}/>
            </div>
            <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
