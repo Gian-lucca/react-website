@@ -1,18 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './contacts.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsInstagram} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
+import { themeContext } from "../../Context";
 
 
 const Contacts = () => {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   
   return (
     <div className="contact-form" id="contatos">
       <div className="n-left">
         <div className="awesone">
-          <span>Entre</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Entre</span>
           <br></br>
           <span>em Contato</span>
 

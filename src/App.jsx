@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <>
-      <div className="App" style={{ background: darkMode ? "black" : "",color: darkMode ? "white" : "",}}>
+      <div className="App" style={{ background: darkMode ? "#161b22" : "",color: darkMode ? "white" : "",}}>
         <Navbar/>
         <Intro/>
         <Services/>
