@@ -15,7 +15,7 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio'>
-      <span style={{ color: darkMode ? "white" : "" }}>Olá! Eu sou</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Meu</span>
       <span>Portfólio</span>
 
       <div className="container portfolio__container">
